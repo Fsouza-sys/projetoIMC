@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    height: 1000px;
+    justify-content: flex;
+    align-items: center;
+}
+.containerH1{
+    height: 50px;
+    background: linear-gradient(135deg, #1ae7f1, #248ae4);
+    display: flex;
+    justify-content: center;
+}
+.tabela{
+    position: relative;
+    height: 300px;
+    display: flex;
+    margin: 0 auto;
+}
+.container{
+    margin: 0 auto;
+    padding: 20px;
+    width: 40%;
+    height: 250px;
+    background-color: #72b5e2;
+    border-radius: 30px;
+}
