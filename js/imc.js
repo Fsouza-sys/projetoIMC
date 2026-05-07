@@ -5,17 +5,17 @@ let resp = peso / (alturaM * alturaM)
 let situacao
 
 if(resp<=18.5){
-    situacao = "Abaixo do peso normal"
+    situacao = "Abaixo do peso normal";
 }else if(resp<=24.9){
-    situacao = "Peso normal"
+    situacao = "Peso normal";
 }else if(resp<=29.9){
-    situacao = "Excesso de peso"
+    situacao = "Excesso de peso";
 }else if(resp<=34.9){
-    situacao = "Obesidade classe I"
+    situacao = "Obesidade classe I";
 }else if(resp<=39.9){
-    situacao = "Obesidade classe II"
+    situacao = "Obesidade classe II";
 }else if(resp>=40.0){
-    situacao = "Obesidade classe III"
+    situacao = "Obesidade classe III";
 }
 
 let imc = document.getElementById("imc")
