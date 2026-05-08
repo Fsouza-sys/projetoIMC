@@ -6,6 +6,7 @@ let situacao
 
 if (resp <= 18.5) {
     situacao = "Abaixo do peso normal"
+<<<<<<< HEAD
 } else if (resp >=18.51 && resp <= 24.9) {
     situacao = "Peso normal"
 } else if (resp >=24.91 && resp <= 29.9) {
@@ -13,6 +14,15 @@ if (resp <= 18.5) {
 } else if (resp >=29.91 && resp <= 34.9) {
     situacao = "Obesidade classe I"
 } else if (resp >=34.91 && resp <= 39.9) {
+=======
+}else if(resp<=24.9){
+    situacao = "Peso normal"
+}else if(resp<=29.9){
+    situacao = "Excesso de peso"
+}else if(resp<=34.9){
+    situacao = "Obesidade classe I"
+}else if(resp<=39.9){
+>>>>>>> fe6258664d5e062b87ac33d1272dff629b86be89
     situacao = "Obesidade classe II"
 } else if (resp >=39.91 && resp >= 40.0) {
     situacao = "Obesidade classe III"
